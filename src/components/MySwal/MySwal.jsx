@@ -27,11 +27,11 @@ const MySweetAlert = () => {
 						href="https://github.com/ezestom">
 						Reservas
 					</a>
-					<button
+					{/* <button
 						className="bg-[--secondary] hover:scale-105 transition rounded-md text-[--principal] py-2 px-4"
 						onClick={() => MySwal.close()}>
 						Cerrar
-					</button>
+					</button> */}
 				</div>
 			),
 			showCloseButton: true,
