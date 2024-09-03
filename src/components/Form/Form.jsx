@@ -25,7 +25,7 @@ export function Form() {
 						</div>
 					</div>
 
-					<div class=" bg-gray-100 p-8 shadow-lg lg:col-span-3 lg:p-12">
+					<div class=" bg-red-50 p-8 shadow-lg lg:col-span-3 lg:p-12">
 						<form action="#" class="space-y-4">
 							<div>
 								<label class="sr-only" for="name">
