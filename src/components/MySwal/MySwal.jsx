@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import img from "../../img/IMG_0056.png";
+import img from "../../img/0056.png";
 import "./MySwal.css";
 
 const MySwal = withReactContent(Swal);

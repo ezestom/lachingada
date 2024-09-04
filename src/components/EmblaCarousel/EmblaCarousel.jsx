@@ -1,10 +1,10 @@
 import useEmblaCarousel from "embla-carousel-react";
 import "./EmblaCarousel.css";
 import Autoplay from "embla-carousel-autoplay";
-import img1 from "../../img/IMG_0060.jpg";
-import img2 from "../../img/IMG_0061.jpg";
-import img3 from "../../img/IMG_0062.jpg";
-import img4 from "../../img/IMG_0064.jpg";
+import img1 from "../../img/0060.jpg";
+import img2 from "../../img/0061.jpg";
+import img3 from "../../img/0062.jpg";
+import img4 from "../../img/0064.jpg";
 
 const images = [img1, img2, img3, img4];
 
