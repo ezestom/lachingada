@@ -2,7 +2,7 @@
 import Image from "astro/components/Image.astro";
 import Layout from "../../layouts/Layout.astro";
 import Container from "./Container.astro";
-import logo from "../../img/logo_rosa.png"
+import logo from "../../img/guarda.jpg"
 ---
 
 <Layout title="">
@@ -13,7 +13,7 @@ import logo from "../../img/logo_rosa.png"
 			<article
 				class="flex flex-col md:flex-row md:justify-between justify-center gap-10 w-full bg-red-100 py-20 px-10">
 				<div class="w-full md:max-w-[50%]">
-					<Image src={logo} alt="Imagen de la sección 3" />
+					<Image class="w-full" src={logo} alt="Imagen de la sección 3" />
 				</div>
 				<div
 					class="w-full md:max-w-[50%] flex flex-col justify-between">
