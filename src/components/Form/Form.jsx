@@ -28,7 +28,7 @@ export function Form() {
 					<div className=" bg-red-50 p-8 shadow-lg lg:col-span-3 lg:p-12">
 						<form action="#" className="space-y-4">
 							<div>
-								<label className="sr-only" for="name">
+								<label className="sr-only" htmlFor="name">
 									Nombre
 								</label>
 								<input
@@ -41,7 +41,7 @@ export function Form() {
 
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
 								<div>
-									<label className="sr-only" for="email">
+									<label className="sr-only" htmlFor="email">
 										Email
 									</label>
 									<input
@@ -53,7 +53,7 @@ export function Form() {
 								</div>
 
 								<div>
-									<label className="sr-only" for="phone">
+									<label className="sr-only" htmlFor="phone">
 										Teléfono
 									</label>
 									<input
@@ -68,7 +68,7 @@ export function Form() {
 							<div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
 								<div>
 									<label
-										for="Option1"
+										htmlFor="Option1"
 										className="block w-full cursor-pointer  border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
 										tabindex="0">
 										<input
@@ -88,7 +88,7 @@ export function Form() {
 
 								<div>
 									<label
-										for="Option2"
+										htmlFor="Option2"
 										className="block w-full cursor-pointer  border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
 										tabindex="0">
 										<input
@@ -108,7 +108,7 @@ export function Form() {
 
 								<div>
 									<label
-										for="Option3"
+										htmlFor="Option3"
 										className="block w-full cursor-pointer  border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
 										tabindex="0">
 										<input
@@ -128,7 +128,7 @@ export function Form() {
 							</div>
 
 							<div>
-								<label className="sr-only" for="message">
+								<label className="sr-only" htmlFor="message">
 									Mensaje
 								</label>
 
