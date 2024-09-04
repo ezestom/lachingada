@@ -2,9 +2,9 @@
 import { Image } from "astro:assets";
 interface CardProps {
 	image?: any;
-	title: string;
-	subtitle: string;
-	description: string;
+	title?: string;
+	subtitle?: string;
+	description?: string;
 }
 
 const { image, title, subtitle, description } = Astro.props;
