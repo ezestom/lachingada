@@ -1,6 +1,4 @@
 ---
-import { Image } from "astro:assets";
-
 interface CardProps {
 	imageUrl: string;
 	title: string;
@@ -13,9 +11,9 @@ const { imageUrl, title, subtitle, description } = Astro.props;
 
 <div
 	class="group relative block bg-[--blue] max-w-[350px] hover:cursor-crosshair">
-	<Image
+	<img
 		alt=""
-		src={imageUrl}
+		src={imageUrl.src}
 		class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
 	/>
 
